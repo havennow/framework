@@ -28,7 +28,7 @@
       "havennow\\": "src/havennow/"
     },
     "files": [
-      "src/Ferhavennowrl/Support/helpers.php"
+      "src/havennow/Support/helpers.php"
     ]
   },
   "autoload-dev": {
