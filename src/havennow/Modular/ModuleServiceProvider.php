@@ -2,7 +2,7 @@
 
 namespace havennow\Modular;
 
-use Ferrl\Contracts\Modular\ModuleLoader as ModuleLoaderContract;
+use havennow\Contracts\Modular\ModuleLoader as ModuleLoaderContract;
 use Illuminate\Support\ServiceProvider;
 
 class ModuleServiceProvider extends ServiceProvider

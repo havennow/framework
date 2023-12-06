@@ -2,7 +2,8 @@
 
 namespace havennow\Modular;
 
-use Doctrine\Common\Inflector\Inflector;
+use Doctrine\Inflector\Inflector;
+use Doctrine\Inflector\NoopWordInflector;
 use havennow\Contracts\Modular\ModuleDefinition as ModuleDefinitionContract;
 use Illuminate\Contracts\Routing\Registrar;
 use Illuminate\View\Factory as View;
@@ -88,7 +89,7 @@ abstract class ModuleDefinition implements ModuleDefinitionContract
     protected function getModulesFolder()
     {
         if (! $this->path) {
-            $inflector = new Inflector();
+            $inflector = new Inflector(new NoopWordInflector(), new NoopWordInflector());
             $this->path = realpath(config('modules.path').'/'.$inflector->classify($this->getName()));
         }
 
@@ -103,7 +104,7 @@ abstract class ModuleDefinition implements ModuleDefinitionContract
     protected function getModulesNamespace()
     {
         if (! $this->namespace) {
-            $inflector = new Inflector();
+            $inflector = new Inflector(new NoopWordInflector(), new NoopWordInflector());
             $this->namespace = config('modules.namespace').'\\'.$inflector->classify($this->getName());
         }
 
@@ -118,7 +119,7 @@ abstract class ModuleDefinition implements ModuleDefinitionContract
     protected function getModulesPrefix()
     {
         if (! $this->prefix) {
-            $inflector = new Inflector();
+            $inflector = new Inflector(new NoopWordInflector(), new NoopWordInflector());
             $this->prefix = $inflector->tableize($this->getName());
         }
 

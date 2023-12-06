@@ -2,11 +2,13 @@
 
 namespace havennow\Modular;
 
-use Doctrine\Common\Inflector\Inflector;
+use Doctrine\Inflector\Inflector;
+use Doctrine\Inflector\NoopWordInflector;
 use havennow\Contracts\Modular\ModuleDefinition as ModuleDefinitionContract;
 use havennow\Contracts\Modular\ModuleLoader as ModuleLoaderContract;
 use havennow\Support\Exceptions\InvalidSignatureException;
 use havennow\Support\Exceptions\ModuleNotFoundException;
+use Illuminate\Validation\Rules\In;
 
 class ModuleLoader implements ModuleLoaderContract
 {
@@ -60,7 +62,7 @@ class ModuleLoader implements ModuleLoaderContract
      */
     protected function getFullyQualifiedModuleClassName($module)
     {
-        $inflector = new Inflector();
+        $inflector = new Inflector(new NoopWordInflector(), new NoopWordInflector());
 
         return config('modules.namespace').'\\'.$inflector->classify($module);
     }

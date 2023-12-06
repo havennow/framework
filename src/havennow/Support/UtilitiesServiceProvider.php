@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support;
+namespace havennow\Support;
 
 use havennow\Contracts\Support\Utils\Breadcrumb as BreadcrumbContract;
 use havennow\Support\Utils\Breadcrumb;

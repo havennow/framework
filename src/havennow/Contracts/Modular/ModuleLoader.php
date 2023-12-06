@@ -2,8 +2,8 @@
 
 namespace havennow\Contracts\Modular;
 
-use Ferrl\Support\Exceptions\InvalidSignatureException;
-use Ferrl\Support\Exceptions\ModuleNotFoundException;
+use havennow\Support\Exceptions\InvalidSignatureException;
+use havennow\Support\Exceptions\ModuleNotFoundException;
 
 interface ModuleLoader
 {
