@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support\Models;
+namespace havennow\Support\Models;
 
 use ReflectionClass;
 

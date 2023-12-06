@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Contracts\Modular;
+namespace havennow\Contracts\Modular;
 
 use Ferrl\Support\Exceptions\InvalidSignatureException;
 use Ferrl\Support\Exceptions\ModuleNotFoundException;

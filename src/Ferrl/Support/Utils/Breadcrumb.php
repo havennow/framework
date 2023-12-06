@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferrl\Support\Utils;
+namespace havennow\Support\Utils;
 
-use Ferrl\Contracts\Support\Utils\Breadcrumb as BreadcrumbContract;
+use havennow\Contracts\Support\Utils\Breadcrumb as BreadcrumbContract;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Fluent;
 use Illuminate\View\Factory as View;

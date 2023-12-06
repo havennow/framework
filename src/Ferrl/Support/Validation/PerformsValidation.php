@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support\Validation;
+namespace havennow\Support\Validation;
 
 use Illuminate\Contracts\Validation\Factory as Validator;
 use Illuminate\Http\JsonResponse;

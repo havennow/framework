@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support\Middleware;
+namespace havennow\Support\Middleware;
 
 use Closure;
 use Illuminate\Contracts\View\Factory as ViewFactory;

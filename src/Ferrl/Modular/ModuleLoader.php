@@ -1,12 +1,12 @@
 <?php
 
-namespace Ferrl\Modular;
+namespace havennow\Modular;
 
 use Doctrine\Common\Inflector\Inflector;
-use Ferrl\Contracts\Modular\ModuleDefinition as ModuleDefinitionContract;
-use Ferrl\Contracts\Modular\ModuleLoader as ModuleLoaderContract;
-use Ferrl\Support\Exceptions\InvalidSignatureException;
-use Ferrl\Support\Exceptions\ModuleNotFoundException;
+use havennow\Contracts\Modular\ModuleDefinition as ModuleDefinitionContract;
+use havennow\Contracts\Modular\ModuleLoader as ModuleLoaderContract;
+use havennow\Support\Exceptions\InvalidSignatureException;
+use havennow\Support\Exceptions\ModuleNotFoundException;
 
 class ModuleLoader implements ModuleLoaderContract
 {

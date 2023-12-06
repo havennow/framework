@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support\Models;
+namespace havennow\Support\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;

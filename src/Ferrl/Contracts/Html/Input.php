@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Contracts\Html;
+namespace havennow\Contracts\Html;
 
 interface Input
 {

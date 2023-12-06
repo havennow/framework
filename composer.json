@@ -1,21 +1,21 @@
 {
-  "name": "ferrl/framework",
+  "name": "havennow/framework",
   "description": "A set of tools built on top of laravel framework.",
   "keywords": ["framework", "laravel"],
   "license": "MIT",
-  "homepage": "http://github.com/ferrl",
+  "homepage": "http://github.com/havennow",
   "support": {
-    "issues": "https://github.com/ferrl/framework/issues",
-    "source": "https://github.com/ferrl/framework"
+    "issues": "https://github.com/havennow/framework/issues",
+    "source": "https://github.com/havennow/framework"
   },
   "authors": [
     {
-      "name": "Lucas Ferreira",
-      "email": "lucasferreirawd@gmail.com"
+      "name": "Guilherme Trevisan de Oliveira",
+      "email": "havennow@gmail.com"
     }
   ],
   "require": {
-    "php": "^5.6 || ^7.0",
+    "php": "^8.1",
     "laravel/framework": "~5.2"
   },
   "require-dev": {
@@ -25,10 +25,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Ferrl\\": "src/Ferrl/"
+      "havennow\\": "src/havennow/"
     },
     "files": [
-      "src/Ferrl/Support/helpers.php"
+      "src/Ferhavennowrl/Support/helpers.php"
     ]
   },
   "autoload-dev": {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ferrl\Modular;
+namespace havennow\Modular;
 
 use Doctrine\Common\Inflector\Inflector;
-use Ferrl\Contracts\Modular\ModuleDefinition as ModuleDefinitionContract;
+use havennow\Contracts\Modular\ModuleDefinition as ModuleDefinitionContract;
 use Illuminate\Contracts\Routing\Registrar;
 use Illuminate\View\Factory as View;
 

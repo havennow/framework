@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Contracts\Support\Utils;
+namespace havennow\Contracts\Support\Utils;
 
 interface Breadcrumb
 {

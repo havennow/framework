@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support\Utils;
+namespace havennow\Support\Utils;
 
 use Illuminate\Support\MessageBag;
 use InvalidArgumentException;

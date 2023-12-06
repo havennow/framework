@@ -2,9 +2,9 @@
 
 namespace Ferrl\Support;
 
-use Ferrl\Contracts\Support\Utils\Breadcrumb as BreadcrumbContract;
-use Ferrl\Support\Utils\Breadcrumb;
-use Ferrl\Support\Utils\FlashMessages;
+use havennow\Contracts\Support\Utils\Breadcrumb as BreadcrumbContract;
+use havennow\Support\Utils\Breadcrumb;
+use havennow\Support\Utils\FlashMessages;
 use Illuminate\Support\ServiceProvider;
 
 class UtilitiesServiceProvider extends ServiceProvider

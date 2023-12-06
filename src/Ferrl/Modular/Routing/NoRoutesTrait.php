@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Modular\Routing;
+namespace havennow\Modular\Routing;
 
 use Illuminate\Contracts\Routing\Registrar;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Support\Exceptions;
+namespace havennow\Support\Exceptions;
 
 use RuntimeException;
 

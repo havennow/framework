@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferrl\Modular;
+namespace havennow\Modular;
 
 use Ferrl\Contracts\Modular\ModuleLoader as ModuleLoaderContract;
 use Illuminate\Support\ServiceProvider;
